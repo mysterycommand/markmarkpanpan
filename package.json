@@ -2,7 +2,6 @@
   "name": "markmarkpanpan",
   "version": "1.0.0",
   "description": "A new repo to present a minimal subset of files and stuff, maybe plus a few other niceties, to get his latest Panara Imports working.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +9,13 @@
     "type": "git",
     "url": "git+https://github.com/mysterycommand/markmarkpanpan.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Matt Hayes",
+    "email": "matt@mysterycommand.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mysterycommand/markmarkpanpan/issues"
   },
-  "homepage": "https://github.com/mysterycommand/markmarkpanpan#readme"
+  "homepage": "https://mysterycommand.github.io/markmarkpanpan/"
 }
