@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+	<style type="text/css">
+		li.hideDisplay{
+  			position: relative; /* This makes everything work.*/
+  			/* Allows you to layer overlapping elements. */
+  			z-index: 20; 
+  			color: #000;
+  			text-decoration: none;
+ 		}
+ 		li.hideDisplay:hover{
+ 		/* Allows you to layer overlapping elements. */
+			 z-index: 30; 
+ 		}
+ 		li.hideDisplay div.showDisplayOnHover{
+ 			display: none;
+ 		}
+ 		li.hideDisplay:hover div.showDisplayOnHover{ 
+ 			display: block;
+ 			position: absolute;
+ 			font-size: 18px;
+			 /* This sets the height of a line of text in the box. */
+			 line-height: 25px;
+			 /* These position the box where it needs to go. */
+			 top: 5px; 
+			 left: 10px;
+			 /* These adjust the size of the box when it appears. */
+			 width: auto;
+			 padding: 10px; 
+			 border: 1px solid #666666;
+			 background-color: #c0cedd; 
+			  /* text color */
+			  color: #000000;
+			  text-align: left;
+		}
+		img{
+			position: relative;
+    		float: left;
+    		background-position: 50% 50%;
+    		background-repeat: no-repeat;
+    		width:  auto;
+    		height: 130px;
+			border:solid blue 1px;
+		}
+		li{
+			width: auto;
+			height: auto;
+			text-align: center;
+			list-style-type: none;
+			display: inline-block;
+		}
+		.crop {
+ 			height: 130px;
+ 			width: 100px;
+ 			overflow: hidden;
+		}
+		.crop img {
+ 			height: 130px;
+ 			width: 100px;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/blanket.jpg">
+	  		<div class="showDisplayOnHover">This is blanket number 1, and it will cost you $5.00.</div>
+  		</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/blanket_alpaca.jpg">
+	  		<div class="showDisplayOnHover"><img src="./assets/images/panara_apparel/blanket_alpaca2.jpg"/>This is blanket number 2, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/blanket_alpaca3.jpg">
+	  		<div class="showDisplayOnHover">This is blanket number 4, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay crop">
+	  		<img src="./assets/images/panara_apparel/black_jacket.jpg">
+	  		<div class="showDisplayOnHover">This is a fancy black jacket, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay crop">
+	  		<img src="./assets/images/panara_apparel/alpaca_sweater.jpg">
+	  		<div class="showDisplayOnHover">This is a sweet alpaca sweater, and it will cost you $5.00.</div>
+	  	</li>
+  	</ul>
+  	<ul>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/black_white1.jpg">
+	  		<div class="showDisplayOnHover"><img src="./assets/images/panara_apparel/black_white2.jpg">This is a sweet shall, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/blackshirt_pinkneck.jpg">
+	  		<div class="showDisplayOnHover">This is a super cute outfit, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/braclets.jpg">
+	  		<div class="showDisplayOnHover">This are locally U.P. made braclets, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/brown_shirt.jpg">
+	  		<div class="showDisplayOnHover">This is a brown shirt, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/fuzzy1.jpg">
+	  		<div class="showDisplayOnHover"><img src="./assets/images/panara_apparel/fuzzy2.jpg"> This is a fuzzy shirt, and it will cost you $5.00.</div>
+	  	</li>
+  	</ul>
+  	<ul>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/gloves.jpg">
+	  		<div class="showDisplayOnHover"> These are sweet gloves, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/gray.jpg">
+	  		<div class="showDisplayOnHover"><img src="./assets/images/panara_apparel/gray2.jpg"> This is a gray shall, and it will cost you $5.00. Don't mind the angry teacher pose</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/incents.jpg">
+	  		<div class="showDisplayOnHover"> This is our array of incents. Please click <a href="#">here</a> to see all the flavors of our smelly smells. They will cost you $5.00 each.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/oils.jpg">
+	  		<div class="showDisplayOnHover">These are esential body oils, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/panara_shirt.jpg">
+	  		<div class="showDisplayOnHover">Don't forget your <em>fair trade certified</em> Panara shirt, and it will cost you $5.00.</div>
+	  	</li>
+  	</ul>
+  	<ul>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/Knife1.jpg">
+	  		<div class="showDisplayOnHover"> These are sharp Knife, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/Knife2.jpg">
+	  		<div class="showDisplayOnHover"> This is a sharp Knife, and it will cost you $5.00. Don't mind the angry teacher pose</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/Knife3.jpg">
+	  		<div class="showDisplayOnHover"> This is a sharp knife. They will cost you $5.00 each.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/long_coat.jpg">
+	  		<div class="showDisplayOnHover">This is a long coat, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/outfit3.jpg">
+	  		<div class="showDisplayOnHover"><img src="./assets/images/panara_apparel/outfit2.jpg"> super cute outfit. Or just the pants <img src="./assets/images/panara_apparel/pants.jpeg"></div>
+	  	</li>
+  	</ul>
+  	<ul>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/purse.jpg">
+	  		<div class="showDisplayOnHover"> These are sharp purse, and it will cost you $5.00.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/shoes1.jpg">
+	  		<div class="showDisplayOnHover"> This are sharp shoes, and it will cost you $5.00. Don't mind the angry teacher pose</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/silver_neckless.jpg">
+	  		<div class="showDisplayOnHover"> This are sharp silver neckless'. They will cost you $5.00 each.</div>
+	  	</li>
+	  	<li class="hideDisplay">
+	  		<img src="./assets/images/panara_apparel/up_jewlery.jpg">
+	  		<div class="showDisplayOnHover"> super cute U.P. made jewlery <img src="./assets/images/panara_apparel/up_neckless.jpg"><img src="./assets/images/panara_apparel/up_earings.jpg"></div>
+	  	</li>
+  	</ul>
+  </body>
